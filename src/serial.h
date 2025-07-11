@@ -44,6 +44,8 @@ typedef struct
     uint32_t                 serialBaud;
 } serialContext;
 
+extern serialContext context;
+
 enum serialState
 {
     CLOSED,
